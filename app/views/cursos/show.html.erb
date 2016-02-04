@@ -1,0 +1,24 @@
+<div id="all">
+    <p id="notice"><%= notice %></p>
+
+    <p>
+        <strong>Name:</strong>
+        <%= @curso.name %>
+    </p>
+
+    <p>
+        <strong>Description:</strong>
+        <%= @curso.description %>
+    </p>
+
+    <p>
+        <strong>Status:</strong>
+        <%= @curso.status %>
+    </p>
+    <div class="link-edition">
+
+        <%= link_to 'Edit', edit_curso_path(@curso) %> |
+        <%= link_to 'Back', cursos_path %>
+    </div>
+
+</div>
