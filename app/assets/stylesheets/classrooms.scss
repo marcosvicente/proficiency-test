@@ -1,0 +1,16 @@
+// Place all the styles related to the classrooms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+label{
+    font-size:2em;
+}
+
+select{ 
+        border: 1px solid #d1d1d1;
+        padding:0.5em;
+        margin-top:0.5em;
+        }   
+select:focus{
+    border:1px solid #54b4e7;
+}
+
